@@ -1,0 +1,17 @@
+title: 课程设计博客
+description: 记录和分享我们的课程设计全过程
+theme: minima
+author: suisuiyuanpingan
+lang: zh-CN
+timezone: Asia/Shanghai
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+
+# 可选：自定义导航栏
+nav:
+  - name: 首页
+    link: /
+  - name: 课程设计总览
+    link: /2025/06/15/course-summary/
+  - name: 文章归档
+    link: /archive/
