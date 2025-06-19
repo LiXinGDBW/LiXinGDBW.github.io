@@ -74,9 +74,9 @@ title: 天气查询系统设计完整博客
 
 |姓名|GitHub用户名|负责模块|主要工作|
 |-|-|-|-|
-|刘乐飞|LiXinGDBW|数据库与utils|数据库更新与修改，多方法的构建，实现用户注册、登录、密码重置功能。|
-|魏祥涵|suisuiyuanpingan|天气查询模块与utils|多方法的构建，实现天气信息抓取、动态更新和显示功能。|
-|张博文|user3|界面设置模块|窗口搭建，实现窗口大小调整、背景图片更改功能。|
+|刘乐飞|LiXinGDBW|数据库与用户管理模块|数据库更新与修改，构建 DatabaseUtils 和 UserUtils，实现用户注册、登录、密码重置功能。|
+|魏祥涵|suisuiyuanpingan|天气查询模块与工具类|构建 WeatherUtils，实现天气信息抓取、动态更新和显示功能；完成登录和注册界面设计。|
+|张博文|user3|界面设置与背景管理模块|构建 BackgroundUtils，实现窗口大小调整、背景图片更改功能；完成关于背景图的功能实现。|
 
 ## 项目Git地址
 [https://github.com/LiXinGDBW/WeatherApp](https://github.com/LiXinGDBW/WeatherApp)
