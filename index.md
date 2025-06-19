@@ -86,4 +86,140 @@ title: 天气查询系统设计完整博客
 - 魏祥涵：[https://github.com/suisuiyuanpingan](https://github.com/suisuiyuanpingan)
 - 张博文：[https://github.com/ZBW-king](https://github.com/ZBW-king)
 
+# WeatherApp 项目源码目录
+
+点击每个标题可展开/折叠源码内容，或直接在 GitHub 查看完整源码。
+
+<details>
+<summary><strong>src/main/java/main/App.java</strong></summary>
+
+[查看源码（GitHub）](https://github.com/LiXinGDBW/WeatherApp/blob/main/src/main/java/main/App.java)
+
+```java
+package main;
+
+import ui.LoginJFrame;
+
+/**
+ * 程序的入口类，负责启动整个应用程序。
+ */
+public class App {
+    /**
+     * 程序的主方法，程序从这里开始执行。
+     * 
+     * @param args 命令行参数，在本程序中未使用。
+     * @throws Exception 如果在创建登录界面时发生异常。
+     */
+    public static void main(String[] args) throws Exception {
+        // 创建一个登录界面的实例，启动登录流程
+        new LoginJFrame();
+    }
+}
+```
+</details>
+
+<details>
+<summary><strong>src/main/java/ui/AppJFrame.java</strong></summary>
+
+[查看源码（GitHub）](https://github.com/LiXinGDBW/WeatherApp/blob/main/src/main/java/ui/AppJFrame.java)
+
+```java
+// 只展示部分源码，完整内容请点击上方链接
+package ui;
+
+import javax.swing.*;
+
+import utils.BackgroundUtils;
+import utils.WeatherUtils;
+
+import java.awt.event.*;
+import java.awt.*;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+// ... 省略内容 ...
+```
+</details>
+
+<details>
+<summary><strong>src/main/java/ui/LoginJFrame.java</strong></summary>
+
+[查看源码（GitHub）](https://github.com/LiXinGDBW/WeatherApp/blob/main/src/main/java/ui/LoginJFrame.java)
+
+```java
+// 只展示部分源码，完整内容请点击上方链接
+package utils;
+
+import java.sql.*;
+import javax.swing.JOptionPane;
+
+// ... 省略内容 ...
+```
+</details>
+
+<details>
+<summary><strong>src/main/java/ui/RechangePasswordJFrame.java</strong></summary>
+
+[查看源码（GitHub）](https://github.com/LiXinGDBW/WeatherApp/blob/main/src/main/java/ui/RechangePasswordJFrame.java)
+
+```java
+// 只展示部分源码，完整内容请点击上方链接
+package utils;
+
+import java.sql.*;
+import javax.swing.JOptionPane;
+
+// ... 省略内容 ...
+```
+</details>
+
+<details>
+<summary><strong>src/main/java/ui/RegisterJFrame.java</strong></summary>
+
+[查看源码（GitHub）](https://github.com/LiXinGDBW/WeatherApp/blob/main/src/main/java/ui/RegisterJFrame.java)
+
+```java
+// 只展示部分源码，完整内容请点击上方链接
+package utils;
+
+import java.sql.*;
+import javax.swing.JOptionPane;
+
+// ... 省略内容 ...
+```
+</details>
+
+<details>
+<summary><strong>src/main/java/utils/UserUtils.java</strong></summary>
+
+[查看源码（GitHub）](https://github.com/LiXinGDBW/WeatherApp/blob/main/src/main/java/utils/UserUtils.java)
+
+```java
+// 只展示部分源码，完整内容请点击上方链接
+package utils;
+
+import java.sql.*;
+import javax.swing.JOptionPane;
+
+// ... 省略内容 ...
+```
+</details>
+
+<details>
+<summary><strong>src/main/java/utils/WeatherUtils.java</strong></summary>
+
+[查看源码（GitHub）](https://github.com/LiXinGDBW/WeatherApp/blob/main/src/main/java/utils/WeatherUtils.java)
+
+```java
+// 只展示部分源码，完整内容请点击上方链接
+package utils;
+
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+
+// ... 省略内容 ...
+```
+</details>
+
 ---
