@@ -190,9 +190,57 @@ import javax.swing.JOptionPane;
 </details>
 
 <details>
+<summary><strong>src/main/java/utils/BackgroundUtils.java</strong></summary>
+
+[查看源码（GitHub）](https://github.com/LiXinGDBW/WeatherApp/blob/main/src/main/java/utils/BackgroundUtils.java)
+
+```java
+// 只展示部分源码，完整内容请点击上方链接
+package utils;
+
+import java.sql.*;
+import javax.swing.JOptionPane;
+
+// ... 省略内容 ...
+```
+</details>
+
+<details>
+<summary><strong>src/main/java/utils/DatabaseUtils.java</strong></summary>
+
+[查看源码（GitHub）](https://github.com/LiXinGDBW/WeatherApp/blob/main/src/main/java/utils/DatabaseUtils.java)
+
+```java
+// 只展示部分源码，完整内容请点击上方链接
+package utils;
+
+import java.sql.*;
+import javax.swing.JOptionPane;
+
+// ... 省略内容 ...
+```
+</details>
+
+<details>
 <summary><strong>src/main/java/utils/UserUtils.java</strong></summary>
 
 [查看源码（GitHub）](https://github.com/LiXinGDBW/WeatherApp/blob/main/src/main/java/utils/UserUtils.java)
+
+```java
+// 只展示部分源码，完整内容请点击上方链接
+package utils;
+
+import java.sql.*;
+import javax.swing.JOptionPane;
+
+// ... 省略内容 ...
+```
+</details>
+
+<details>
+<summary><strong>src/main/java/utils/WeatherInfoManager.java</strong></summary>
+
+[查看源码（GitHub）](https://github.com/LiXinGDBW/WeatherApp/blob/main/src/main/java/utils/WeatherInfoManager.java)
 
 ```java
 // 只展示部分源码，完整内容请点击上方链接
