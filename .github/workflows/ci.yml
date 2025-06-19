@@ -1,24 +1,16 @@
-name: Update GitHub Pages
+name: Update Pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     steps:
-      # 检出你的仓库内容
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-
-      # 如果你只是静态页面，可以不需要下面的 build 步骤
-
-      # 发布到 GitHub Pages（如果用的是 docs 文件夹或自定义构建，可以用 actions/upload-pages-artifact）
-      # 静态仓库通常无需这一步，GitHub 会自动部署 main 分支到 Pages
-
-      # 这里只做一个通知
-      - name: Confirm update
-        run: echo "Pages should update after push or manual trigger."
+      - name: Notify
+        run: echo 'GitHub Pages will auto-update after push to main.'
